@@ -1,0 +1,23 @@
+name:                mi-haskell
+version:             "0.1"
+github:              "wireapp/mi-haskell"
+license:             GPL-3.0
+author:              "Artyom Kazak"
+maintainer:          "support@wire.com"
+copyright:           "Wire Swiss GmbH"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+synopsis:            Bindings for the wireapp/mi library
+category:            Crypto
+
+description: |
+  Bindings for the wireapp/mi library (Morphing Identity)
+
+dependencies:
+- base >= 4.7 && < 5
+
+library:
+  source-dirs: src
